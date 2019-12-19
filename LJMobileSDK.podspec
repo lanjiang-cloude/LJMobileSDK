@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "LJMobileSDK.framework/Headers", "*.{h,m}"
-  s.vendored_frameworks = 'LJMobileSDK.framework'
+  spec.vendored_frameworks = 'LJMobileSDK.framework'
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
