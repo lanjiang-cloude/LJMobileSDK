@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LJMobileSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "蓝将广告SDK."
 
   # This description is used to generate tags and improve search results.
@@ -90,6 +90,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "LJMobileSDK.framework/Headers", "*.{h,m}"
+  s.vendored_frameworks = 'LJMobileSDK.framework'
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -104,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "LJResources.bundle/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
