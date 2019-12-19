@@ -11,7 +11,7 @@
 //! Project version number for LJMobileSDK.
 FOUNDATION_EXPORT double LJMobileSDKVersionNumber;
 
-//! Project version string for LJMobileSDK.
+//! Project version string for LJMobileSDK. 1.0.5
 FOUNDATION_EXPORT const unsigned char LJMobileSDKVersionString[];
 
 
